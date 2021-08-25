@@ -56,7 +56,7 @@
   },
   "husky": {
     "hooks": {
-      "post-merge": "git-branch-is master && yarn version --patch && git push --follow-tags"
+      "post-merge": "git-branch-is master && yarn version --patch"
     }
   }
 }
