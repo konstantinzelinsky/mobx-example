@@ -26,7 +26,9 @@
     "@types/react-dom": "^17.0.0",
     "autoprefixer": "^9",
     "postcss": "^7",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "git-branch-is": "^4.0.0",
+    "husky": "^7.0.2"
   },
   "scripts": {
     "start": "craco start",
@@ -51,10 +53,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "git-branch-is": "^4.0.0",
-    "husky": "^7.0.2"
   },
   "husky": {
     "hooks": {
