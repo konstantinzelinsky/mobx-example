@@ -1,6 +1,6 @@
 {
   "name": "mobx-example",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.2.0",
@@ -25,10 +25,10 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "autoprefixer": "^9",
-    "postcss": "^7",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "git-branch-is": "^4.0.0",
-    "husky": "4"
+    "husky": "4",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
   "scripts": {
     "start": "craco start",
