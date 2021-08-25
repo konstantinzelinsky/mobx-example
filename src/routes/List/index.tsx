@@ -25,7 +25,7 @@ const List = (): ReactElement => {
         />
       </div>
       {loading ? (
-        <p>Loading...</p>
+        <p>Loading... (test)</p>
       ) : (
         <ul>
           {filteredTodos.map((todo) => (
