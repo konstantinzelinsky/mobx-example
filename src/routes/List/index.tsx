@@ -15,7 +15,7 @@ const List = (): ReactElement => {
 
   return (
     <div>
-      <h1 className="font-bold text-2xl mb-3">To-dos List</h1>
+      <h1 className="font-bold text-2xl mb-3">To-dos</h1>
       <div className="flex items-center gap-2 mb-3">
         <p>Show only not completed (changed)</p>
         <input

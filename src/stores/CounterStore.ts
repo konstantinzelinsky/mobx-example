@@ -7,7 +7,7 @@ class CounterStore {
     makeObservable(this, {
       counter: observable,
       setCounter: action,
-      doubled: computed,
+      doubled: computed
     });
   }
 
