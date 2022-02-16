@@ -27,7 +27,7 @@ const MainLayout = (): ReactElement => {
             List
           </NavLink>
         </nav>
-        <div>Current Counter State: {counter}</div>
+        <div>This is current counter State: {counter}</div>
       </div>
       <div className="p-10">
         <Outlet />
