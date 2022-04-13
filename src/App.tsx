@@ -3,10 +3,10 @@ import { useRoutes } from 'react-router';
 
 import routes from './routes';
 
-function App() {
+const App = () => {
   const routing = useRoutes(routes);
 
   return <div>{routing}</div>;
-}
+};
 
 export default App;
