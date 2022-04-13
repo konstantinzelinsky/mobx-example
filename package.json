@@ -55,7 +55,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "export PATH=/usr/local/bin:$PATH && yarn version --no-git-tag-version --patch && git add package.json"
+      "pre-commit": "yarn version --no-git-tag-version --patch && git add package.json"
     }
   }
 }

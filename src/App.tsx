@@ -6,6 +6,8 @@ import routes from './routes';
 function App() {
   const routing = useRoutes(routes);
 
+  console.log('add comment');
+
   return <div>{routing}</div>;
 }
 
