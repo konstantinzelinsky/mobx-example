@@ -10,6 +10,7 @@ const MainLayout = (): ReactElement => {
 
   return (
     <div>
+      Test commit
       <div className="flex items-center p-5 bg-yellow-200 rounded-b-lg">
         <nav className="flex gap-x-5 flex-auto">
           <NavLink
