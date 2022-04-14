@@ -1,6 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-PATH=/usr/local/bin:$PATH
-
-yarn version --no-git-tag-version --patch && git add package.json
+npm version patch -no-git-tag-version && git add package.json

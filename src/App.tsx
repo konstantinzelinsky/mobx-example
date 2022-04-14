@@ -6,8 +6,6 @@ import routes from './routes';
 const App = () => {
   const routing = useRoutes(routes);
 
-  console.log('test');
-
   return <div>{routing}</div>;
 };
 
